@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
+#include "myHeader.h"
+
 
 int main()
 {
-    std::cout << "Hello Yash\n";
+    HELLO("Yash");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
