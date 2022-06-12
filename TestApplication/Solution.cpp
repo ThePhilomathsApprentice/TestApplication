@@ -23,7 +23,7 @@ double Solution::fact(int f) {
         double factorial = 1;
         if (f <= 1) {
             return (factorial);
-
+             
         }
         else {
             try {
@@ -39,6 +39,7 @@ double Solution::fact(int f) {
 
                 factorialMap.insert(std::pair<int, double>(f, factorial));
 
+                std::cerr << "Out of Range error: " << oor.what() << '\n';
             }
 
             return (factorial);
@@ -54,11 +55,19 @@ double Solution::nCk(int n, int k) {
         return result;
 }
 
+Solution::Solution()
+{
+}
+
+Solution::~Solution()
+{
+}
+
 std::vector<int> Solution::getRow(int rowIndex) {
         std::vector<int> pascalIntRow;
 
         for (int i = 0; i <= rowIndex; i++) {
-            pascalIntRow.push_back(round(nCk(rowIndex, i)));
+            pascalIntRow.push_back((int)round(nCk(rowIndex, i)));
 
         }
 

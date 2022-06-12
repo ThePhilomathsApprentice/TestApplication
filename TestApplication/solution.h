@@ -2,6 +2,8 @@
 
 #include <map>
 #include <vector>
+#include <iostream>
+
 #include <stdexcept>
 
 
@@ -14,5 +16,7 @@ private:
     double nCk(int n, int k);
 
 public:
+    Solution();
+    ~Solution();
     std::vector<int> getRow(int rowIndex);
 };
