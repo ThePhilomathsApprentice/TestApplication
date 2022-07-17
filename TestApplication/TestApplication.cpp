@@ -3,13 +3,13 @@
 
 #include <iostream>
 #include "myHeader.h"
-#include "solution.h"
+#include "pascal.h"
 
 int main()
 {
     HELLO("Yash");
 
-    Solution obj;
+    Pascal obj;
     std::vector<int> pascalRow;
     pascalRow = obj.getRow(5);
 

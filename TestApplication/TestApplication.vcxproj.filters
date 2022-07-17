@@ -21,12 +21,18 @@
     <ClCompile Include="Solution.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Pasacal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="solution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pascal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
