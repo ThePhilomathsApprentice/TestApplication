@@ -7,7 +7,7 @@
 
 int main()
 {
-    HELLO("Yash");
+    HELLO("Yash Joshi");
 
     Pascal obj;
     std::vector<int> pascalRow;
